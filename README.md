@@ -1,21 +1,38 @@
-# Bugatti-of-brand
-front end practice website，about some idea for car
+# Bugatti Brand Demo Site
 
-this is a static website page.
-====
+A static frontend practice website inspired by the Bugatti brand, featuring UI design and front-end effects.
 
-##project introduced
+## Preview
 
-In the period of college, I began to try the front end of the work,
-for example, some of the brand practice site, in these exercises I wrote a lot,
-such as UI design and some front-end knowledge system, of course, thank you computer Foundation.
+![Homepage](img/index.jpg)
 
-Here, I have the page uploaded to the FTP above, we can preview in the above, click this：[Bugatti](http://bugattii.top)
+![Product Page](img/index_1.jpg)
 
+## Pages
 
-##frontend frame and more：
+| Page | Description |
+|---|---|
+| `index.html` | Splash landing page with animated car headlamps and background audio |
+| `home.html` | Main homepage with navbar, image gallery, and video modal |
+| `prodact.html` | Product detail page with full-screen panel sections and side navigation |
 
-* bootstrap3.0
-* html
-* css
-* jquery
+## Tech Stack
+
+- HTML / CSS
+- Bootstrap 3
+- jQuery 3.0.0
+- jPlayer — background audio playback
+- BlackBox — modal overlay
+- WOW.js + Animate.css — scroll-triggered animations
+
+## Usage
+
+No build step required. Open any `.html` file directly in a browser.
+
+```
+open index.html
+```
+
+## Author
+
+Z-lion — frontend practice project, 2016
